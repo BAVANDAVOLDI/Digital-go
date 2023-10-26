@@ -1,0 +1,51 @@
+.main{
+    margin-top: 200px;
+    color: black;
+    display: flex;
+    font-weight: bold;
+}
+.chute{
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin: 40px 40px;
+}
+.chute h1{
+    padding: 10px;
+}
+.nous{
+    padding: 10px;
+    margin: 2px;
+}
+.nous a{
+    background: black;
+    padding: 7px;
+    color: white;
+}
+.nous a:hover{
+    background: crimson;
+    color: white;
+    padding: 7px;
+}
+.debut{
+    transition: 4s;
+    padding: 0 65px;
+}
+.ain{
+    margin: 0px 40px;
+}
+.chute p{
+    padding: 15px;
+    font-size: 1.4em;
+}
+@media (max-width: 858px){
+    .main{
+        flex-direction: column;
+    }
+    .ain{
+        margin: 15px 15px;
+    }
+    .chute{
+        margin: 15px 15px;
+    }
+}

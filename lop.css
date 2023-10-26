@@ -1,0 +1,25 @@
+.sol{
+    margin-top: 130px;
+}
+.flip a{
+    background: black;
+    padding: 7px;
+    color: white;
+}
+.flip a:hover{
+    background: #0082e6;
+}
+.main{
+    background: white;
+    margin: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.11);
+}
+.main img{
+    padding: 10px;
+}
+.main p{
+    padding: 10px;
+}
+.flip{
+    margin: 10px;
+}

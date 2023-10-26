@@ -1,0 +1,125 @@
+*,* ::before, ::after {
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.3;
+    margin: 0;
+}
+p {
+    font-size: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jour {
+    margin-top: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jour h1{
+    color: rgb(66, 66, 214);
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.jour p{
+    font-size: 1.2em;
+}
+.finance {
+    padding: 10px;
+    float: right;
+    top: 0;
+}
+.liste {
+    color: rgb(66, 66, 214);
+    font-size: 1.8em;
+}
+.finance a {
+    border: solid blue;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    background: black;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 45px;
+    padding-right: 20px;
+    filter: drop-shadow();
+}
+.menu a {
+    padding: 12px;
+    color: rgb(241, 235, 235);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.menu-home {
+    font-size: 47px;
+}
+.tobar menu a {
+    color: inherit;
+    background-color: rgba(245, 245, 220, 0.425);
+}
+.tobar nav {
+    overflow: hidden;
+}
+.h{
+    padding: 15px;
+    color: rgb(66, 66, 214);
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.menu a {
+    display: block;
+    padding: 0.6em 0;
+    transition:  .3s;
+    border: solid 1px transparent;
+    padding-left: 10px;
+}
+.menu a::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 10px;
+    opacity: .67;
+    background: url(image/3917032.png) center center / contain no-repeat;
+    transition: opacity .3s;
+    
+}
+.container {
+    padding: 0 15px;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img {
+    padding-top: 50px;
+}
+.liste-localisation {
+    margin: 14px 0;
+    display: flex;
+}
+.liste-image {
+    width: 73px;
+    height: 73px;
+    flex: none;
+    margin-right: 10px;
+}
+.liste-p {
+    display: block;
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.w{
+    margin-top: 12px;
+    text-align: center;
+    box-shadow:  1px 1px 1px 1px rgba(255, 255, 255, 0.863);
+    background: midnightblue;
+}
